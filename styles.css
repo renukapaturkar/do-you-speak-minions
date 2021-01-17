@@ -1,3 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 body{
+    font-family: 'Patrick Hand', cursive;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 42rem;
+    background-image: url("images/minion1.jpg");
+    background-repeat: no-repeat;
     
+}
+
+
+
+:root{
+    --primary-color: #f5e050;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    
+}
+.navigation .nav-name{
+    font-weight: bolder;
+}
+.navigation .nav-name h1{
+    text-align: center;
+}
+
+#text-input{
+    
+    width: 90%;
+    height: 20vh;
+    margin: 1rem 1rem;
+    padding: 1rem;
+    background-color: transparent;
+}
+
+#btn-translate{
+    border: 1px solid black;
+    margin: 1rem 1rem;
+    padding: 1 rem;
+    background-color: var(--primary-color);
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 4vh;
+    
+}
+
+#output-div{
+    
+    border: 1px solid black;
+    width: 90%;
+    height: 20vh;
+    margin: 4rem 1rem;
+    padding: 1rem;
+}
+
+.footer{
+    
+    padding: 1rem 1rem;
+    text-align: center;
+    color: black;
+    
+    
+    
+    
+    
+
+     
+}
+
+.footer .footer-header{
+    font-weight: normal;
 }
