@@ -41,7 +41,7 @@ body{
 #btn-translate{
     border: 1px solid black;
     margin: 1rem 1rem;
-    padding: 1 rem;
+    padding: 1rem;
     background-color: var(--primary-color);
     display: flex;
 	align-items: center;
