@@ -30,7 +30,8 @@ body{
 }
 
 #text-input{
-    
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5em;
     width: 90%;
     height: 20vh;
     margin: 1rem 1rem;
@@ -39,7 +40,8 @@ body{
 }
 
 #btn-translate{
-    border: 1px solid black;
+    font-family: 'Patrick Hand', cursive;
+    border: 1px solid var(--primary-color) ;
     margin: 1rem 1rem;
     padding: 1rem;
     background-color: var(--primary-color);
@@ -51,7 +53,7 @@ body{
 }
 
 #output-div{
-    
+    font-family: 'Patrick Hand', cursive;
     border: 1px solid black;
     width: 90%;
     height: 20vh;
